@@ -8,7 +8,7 @@ from utils import is_prime
 # Recoméndase usar nomes significativos para o nome da clase
 class TestUtils(unittest.TestCase):
     def test_is_prime(self):
-        self.assertFalse(is_prime(2))
+        self.assertTrue(is_prime(2))
         self.assertTrue(is_prime(3))
         self.assertTrue(is_prime(7))
 
