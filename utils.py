@@ -18,11 +18,3 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-
-
-def cubic(a):
-    return a * a * a
-
-
-def say_hello(nome):
-    return "Ola, " + nome
